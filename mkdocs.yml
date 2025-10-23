@@ -1,0 +1,10 @@
+site_name: Lenguaje de marcas
+docs_dir: md
+site_dir: docs
+nav:
+    - Home: index.md
+    - UD.2:
+      - Marcas de texto: MarcasTexto.md
+    - About: Sobre-mi.md
+extra_css:
+  - css/extra.css
