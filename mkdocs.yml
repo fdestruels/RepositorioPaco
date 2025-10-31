@@ -17,9 +17,11 @@ theme:
   
   plugins:
      - search
+     - page-to-pdf
   features:
     - navigation.sections
     - navigation.top
+    - content.code.copy
   
   markdown_extensions:
   - admonition
