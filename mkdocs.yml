@@ -1,4 +1,39 @@
 site_name: Lenguaje de marcas
+theme:
+  name: 'material'
+  palette:
+      - scheme: default
+      toggle:
+          icon: material/brightness-7 
+          name: Canvia a mode oscur
+
+      - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Canvia a mode clar
+  font:
+    text: 'Roboto, sans-serif'
+    code: 'Courier New, monospace'
+  
+  plugins:
+     - search
+  features:
+    - navigation.sections
+    - navigation.top
+  
+  markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+
+  features:
+    - content.code.copy
+
 docs_dir: md
 site_dir: docs
 nav:
@@ -8,3 +43,4 @@ nav:
     - About: Sobre-mi.md
 extra_css:
   - css/extra.css
+
