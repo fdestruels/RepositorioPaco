@@ -34,7 +34,9 @@ Sóc Paco Destruels Moreno, docent d'Informàtica  al CEEDCV de València.
 ```mermaid
 
 pie title Os gusta el Turron de Viena?
+
     "Si" : 380
     "No" : 90
     "NS/NC" : 10
+
 ```
