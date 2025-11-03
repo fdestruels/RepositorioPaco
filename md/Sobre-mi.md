@@ -4,6 +4,7 @@
 Sóc Paco Destruels Moreno, docent d'Informàtica  al CEEDCV de València.
 !!! warning "¡Advertencia! Soy de benetússer"
 !!! danger " No te lo tomes a broma"
+
 ```text
 ???+ note "Pregunta"
 

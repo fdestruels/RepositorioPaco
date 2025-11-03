@@ -3,14 +3,14 @@ theme:
   name: 'material'
   palette:
       - scheme: default
-      toggle:
-          icon: material/brightness-7 
-          name: Canvia a mode oscur
-
+    
       - scheme: slate
       toggle:
           icon: material/brightness-4
           name: Canvia a mode clar
+
+
+
   font:
     text: 'Roboto, sans-serif'
     code: 'Courier New, monospace'
